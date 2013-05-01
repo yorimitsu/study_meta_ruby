@@ -26,7 +26,7 @@ my_object.instance_variables #=> [:@text]
 #オブジェクトをデータベースに永続化する簡単なライブラリをつくってみた
 #introduction/orm.rb
 #-----
-class Entiry
+class Entity
   attr_reader :table, :ident
   
   def initialize(table, ident)
